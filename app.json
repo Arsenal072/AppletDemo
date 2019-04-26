@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/aboutMe/aboutMe",
+    "pages/haha/haha"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#6E7481",
+    "selectedColor": "#FF6E21",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "common/images/home.png",
+      "selectedIconPath": "common/images/home_selected.png",
+      "text": "首页"
+    }, 
+    {
+      "pagePath": "pages/haha/haha",
+      "text": "哈哈哈"
+    },
+    {
+        "pagePath": "pages/aboutMe/aboutMe",
+        "iconPath": "common/images/mine.png",
+        "selectedIconPath": "common/images/mine_selected.png",
+        "text": "关于我"
+    }],
+    "position": "bottom"
+  }
+}

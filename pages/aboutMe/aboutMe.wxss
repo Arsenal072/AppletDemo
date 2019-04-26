@@ -1,0 +1,99 @@
+/* pages/mine/mine.wxss */
+
+page {
+    background-color: #F4F4F5;
+    /* height: 1800rpx; */
+}
+
+/*头部*/
+.header {
+    width: 100%;
+    height: 250rpx;
+}
+
+.header .header-bg-image {
+    position: absolute;
+    width: 100%;
+    height: 250rpx;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.user-wrap {
+    width: 100%;
+    padding-top: 55rpx;
+    padding-left: 80rpx;
+    display: flex;
+}
+
+/*微信图像*/
+.user-wrap .user-avatar {
+    width: 130rpx;
+    height: 130rpx;
+    margin-right: 36rpx;
+    border-radius: 50%;
+    border: 5rpx #ffffff solid;
+    display: flex;
+    overflow: hidden;
+}
+
+/*自定义图像*/
+.user-wrap .user-image {
+    width: 130rpx;
+    height: 130rpx;
+    border-radius: 50%;
+    border: 5rpx #ffffff solid;
+}
+
+.user-wrap .user-info {
+    position: relative;
+    width: 490rpx;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.user-wrap .user-info .user-name {
+    font-size: 38rpx;
+}
+.user-wrap .user-info .mobile-number {
+    font-size: 30rpx;
+}
+
+.user-wrap .user-info .balance{
+    font-size: 30rpx;
+}
+.button{
+    width: 654rpx;
+    height: 100rpx;
+    margin-top: 20rpx;
+    text-align: center;
+    line-height: 100rpx;
+    border-radius: 8rpx;
+    font-weight: bold;
+    color: #fff;
+    font-size: 36rpx;
+    background:linear-gradient(90deg,rgba(255,110,33,1) 0%,rgba(255,74,0,1) 100%);
+    box-shadow:0rpx 8rpx 12rpx 0rpx rgba(255,89,14,0.3);
+}
+.content{
+    padding: 10rpx 30rpx;
+}
+.biaobaiImg{
+    display: block;
+    margin: 20rpx auto;
+    width: 400rpx;
+    height: 300rpx;
+}
+.biaobai{
+    display: block;
+    margin: 20rpx auto;
+    width: 600rpx;
+    height: 400rpx;
+}
+
+
+
+

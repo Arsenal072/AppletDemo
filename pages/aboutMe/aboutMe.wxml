@@ -1,0 +1,33 @@
+<!--我的-->
+<view>
+    <view class="header">
+        <image src="../../common/images/mine-bg.png" class="header-bg-image"></image>
+        <view class="user-wrap">
+            <image class="user-image" src="{{userImg}}" wx:if="{{userImg}}"></image>
+            <open-data type="userAvatarUrl" class="user-avatar" wx:else></open-data>
+            <view class="user-info">
+                <text class="user-name">{{partyName}}</text>
+                <view class="usually-address-wrapper">
+                    <text class="usually-address">{{usuallyAddress}}</text>
+                </view>
+                <text class="mobile-number">电话：{{mobileNumber}}</text>
+                <text class="mobile-number">邮箱：{{email}}</text>
+            </view>
+        </view>
+    </view>
+    <view class="content">
+        <!-- <text decode="{{true}}">
+            &emsp;&emsp;小鱼，最近感觉时间过得好慢好慢，距离上次见到你过了好久好久。和你出去玩耍的时间不是很多，但每次很会开心，还会发现不一样的你。
+        </text>
+        <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2106962227,3418950187&fm=26&gp=0.jpg"
+            class="biaobaiImg"></image> -->
+        <text decode="{{true}}">&emsp;&emsp;在城市阳台，我问你Are you will be my GF?认识到理性的你。在电影院，你看着女主角为爱奋不顾身，你哭得那么伤心，你又是感性的。</text>
+        <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2106962227,3418950187&fm=26&gp=0.jpg"
+        class="biaobaiImg"></image>
+        <text decode="{{true}}">&emsp;&emsp;在地铁站问你，我们的进度条到哪里了？你装傻说不知道，格式化了吧. 我才不信呢，你是如此的独特，很想和你一起探索未知的世界。我又要问你之前问过的问题了(苦笑脸)
+        </text>
+        <button wx:if="{{showButton}}" class="button" bindtap="beMyGf">点击它</button>
+        <image wx:if="{{showImg}}" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3405600849,593545447&fm=26&gp=0.jpg" class="biaobai"></image>
+    </view>
+    
+</view>

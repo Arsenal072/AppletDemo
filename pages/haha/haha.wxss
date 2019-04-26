@@ -1,0 +1,17 @@
+.imgList {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imgList .img {
+    width: 250rpx;
+    height: 250rpx;
+}
+.image{
+    width: 250rpx;
+    height: 346rpx;
+}

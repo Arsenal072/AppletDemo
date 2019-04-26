@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view>
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
+        circular="true">
+        <view wx:for="{{arr}}" wx:key="{{arr.index}}">
+            <swiper-item>
+                <image src="{{item}}" class="slide-image" width="355" height="150" />
+            </swiper-item>
+        </view>
+    </swiper>
+    <view class="content">
+        <text decode="{{true}}">
+            &emsp;&emsp;小鱼，最近感觉时间过得好慢好慢，距离上次见到你过了好久好久。和你出去玩耍的时间不是很多，但每次很会开心，还会发现不一样的你。
+        </text>
+        <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2059002284,822377748&fm=26&gp=0.jpg"
+            class="biaobaiImg"></image>
+    </view>
+
+
+    <!-- <view class="userinfo">
+        <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称
+        </button>
+        <block wx:else>
+            <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        </block>
+    </view> -->
+</view>
